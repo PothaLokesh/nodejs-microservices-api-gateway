@@ -1,6 +1,6 @@
-const express = require("express");
-const jwt = require("jsonwebtoken");
-const { createProxyMiddleware } = require("http-proxy-middleware");
+import express from "express";
+import jwt from "jsonwebtoken";
+import { createProxyMiddleware } from "http-proxy-middleware";
 
 const app = express();
 

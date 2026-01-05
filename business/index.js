@@ -1,7 +1,7 @@
-const express = require("express");
-const jwt = require("jsonwebtoken");
-const axios = require("axios");
-const db = require("./db");
+import express from "express";
+import jwt from "jsonwebtoken";
+import axios from "axios";
+import db from "./db.js";
 
 const app = express();
 app.use(express.json()); // Needed to parse JSON bodies
